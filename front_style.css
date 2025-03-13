@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 4vw;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    overflow: hidden;
+}
+.nav{
+    height: 4vw;
+    width: 100%;
+    background-color: rgb(201, 156, 244);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    overflow: hidden;
+}
+.Logo{
+    font-size: 2vw;
+    margin-left: 1vmin;
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+    margin-left: 2vmin;
+    padding: 1vmin;
+    font-size: 1.5vw;
+    color: black;
+}
+a:hover{
+    color: yellow;
+}
+.content{
+    margin-top: 4vw;
+}
+@media (max-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navbar{
+        height: 7vw;
+        width: 100%;
+        background-color: grey;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top:0;
+        overflow: hidden;
+    }
+    .nav{
+        height: 7vw;
+        width: 100%;
+        background-color: rgb(201, 156, 244);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top:0;
+        overflow: hidden;
+    }
+    .Logo{
+        font-size: 5vw;
+        margin-left: 1vmin;
+        font-weight: 800;
+    }
+    a{
+        text-decoration: none;
+        margin-left: 2vmin;
+        padding: 0.5vmin;
+        font-size: 3vw;
+        color: black;
+    }
+    a:hover{
+        color: yellow;
+    }
+    .content{
+        margin-top: 7vw;
+        font-size: 3vw;
+    }
+    
+}
